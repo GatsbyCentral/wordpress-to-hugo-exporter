@@ -36,7 +36,7 @@ class Hugo_Export
      *
      * @var bool
      */
-    private $include_comments = false; //export comments as part of the posts they're associated with
+    private $include_comments = true; //export comments as part of the posts they're associated with
 
     public $rename_options = array('site', 'blog'); //strings to strip from option keys on export
 
